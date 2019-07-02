@@ -1,0 +1,23 @@
+﻿
+@model IEnumerable<Movie>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="album py-5 bg-light">
+    <div class="container" style="margin-top:20px">
+
+        <div class="row">
+            <div class="col-md-3">
+                @await Component.InvokeAsync("Menu")
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    @Html.Partial("_MovieList", Model)
+                 </div>
+             </div>
+
+
+            </div>
+    </div>
+</div>
