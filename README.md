@@ -2,6 +2,8 @@
 
 Proje hakkında
 ----------------
--> Uygulama  filmlerin kategorilerine göre listelendiği ve detay kısımlarının olduğu basit bir web uygulamasıdır. 
+-> Uygulama,  filmlerin kategorilerine göre listelendiği ve detay kısımlarının olduğu basit bir Asp.Net Core web uygulamasıdır.
+ 
+-> Veritabanıdan bağımsızdır kod içine gömülü dummy datalar mevcuttur
 
--> Asp.Net Core web uygulamasıdır.
+-> Direk indirilip visual studio ortamında çalıştırılabilir
